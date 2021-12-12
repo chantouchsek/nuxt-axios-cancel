@@ -1,0 +1,56 @@
+{
+  "name": "nuxt-axios-cancel",
+  "version": "0.0.0",
+  "description": "Block duplicate axios requests using interceptors and return results using promises",
+  "main": "module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version && git push --follow-tags origin main && yarn publish"
+  },
+  "keywords": [
+    "nuxt",
+    "axios",
+    "duplicate",
+    "request",
+    "blocking",
+    "cancel",
+    "axios-cancel"
+  ],
+  "author": {
+    "name": "Chantouch Sek",
+    "email": "chantouchsek.cs83@gmail.com",
+    "url": "https://chantouch.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chantouchsek/nuxt-axios-cancel/issues"
+  },
+  "contributors": [
+    {
+      "name": "Chantouch Sek",
+      "email": "chantouchsek.cs83@gmail.com",
+      "url": "https://chantouch.me"
+    }
+  ],
+  "eslintIgnore": [
+    "templates/*.*"
+  ],
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/chantouchsek/nuxt-axios-cancel#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chantouchsek/nuxt-axios-cancel.git"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "is-plain-object": "^5.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.3.2"
+  }
+}
