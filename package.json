@@ -35,9 +35,7 @@
   "eslintIgnore": [
     "templates/*.*"
   ],
-  "files": [
-    "lib"
-  ],
+  "files": ["templates", "index.js"],
   "homepage": "https://github.com/chantouchsek/nuxt-axios-cancel#readme",
   "publishConfig": {
     "access": "public"
