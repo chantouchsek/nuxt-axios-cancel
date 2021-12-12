@@ -1,4 +1,9 @@
-# nuxt-axios-cancel
+# Nuxt Axios Cancel
+
+[![Latest Version on NPM](https://img.shields.io/npm/v/nuxt-axios-cancel.svg?style=flat-square)](https://npmjs.com/package/nuxt-axios-cancel)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
+[![npm](https://img.shields.io/npm/dt/nuxt-axios-cancel.svg?style=flat-square)](https://npmjs.com/package/nuxt-axios-cancel)
+[![npm](https://img.shields.io/npm/dm/nuxt-axios-cancel.svg?style=flat-square)](https://npmjs.com/package/nuxt-axios-cancel)
 
 > Nuxt module that adds [axios](https://www.npmjs.com/package/@nuxtjs/axios) interceptors in order to block duplicate API requests and return results from the latest request to all callee functions. It can also be optionally used to cancel active requests when switching between pages.
 
