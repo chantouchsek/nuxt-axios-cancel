@@ -10,7 +10,7 @@ module.exports = function module (moduleOptions) {
 
   this.addPlugin({
     src: resolve(__dirname, 'templates/plugin.js'),
-    fileName: 'nuxt-axios-duplicate-blocker.js',
+    fileName: 'nuxt-axios-cancel.js',
     ssr: true,
     options
   })

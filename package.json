@@ -2,7 +2,7 @@
   "name": "nuxt-axios-cancel",
   "version": "0.0.0",
   "description": "Block duplicate axios requests using interceptors and return results using promises",
-  "main": "module.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version && git push --follow-tags origin main && yarn publish"
