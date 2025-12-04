@@ -1,6 +1,6 @@
 {
   "name": "nuxt-axios-cancel",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Block duplicate axios requests using interceptors and return results using promises",
   "main": "index.js",
   "packageManager": "yarn@4.12.0",
