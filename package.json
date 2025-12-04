@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "description": "Block duplicate axios requests using interceptors and return results using promises",
   "main": "index.js",
+  "packageManager": "yarn@4.12.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "release": "standard-version && git push --follow-tags origin main && yarn publish"
@@ -48,10 +49,14 @@
     "url": "git+https://github.com/chantouchsek/nuxt-axios-cancel.git"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.13.6",
     "is-plain-object": "^5.0.0"
   },
   "devDependencies": {
-    "standard-version": "^9.3.2"
+    "axios": "^0.30.2",
+    "standard-version": "^9.5.0"
+  },
+  "peerDependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.21.1"
   }
 }
